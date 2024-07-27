@@ -20,6 +20,7 @@ function App() {
   const [gameOver, setGameOver] = useState(false);
   const [showCongrats, setShowCongrats] = useState(false);
   const [isGameStarted, setIsGameStarted] = useState(false);
+  // eslint-disable-next-line no-unused-vars
   const [_, setIsModalOpen] = useState(false);
   const [feedback, setFeedback] = useState("");
   const [showFeedback, setShowFeedback] = useState(false);
