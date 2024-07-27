@@ -12,7 +12,7 @@ import financeQA from "./quizzes.json";
 
 Modal.setAppElement("#root");
 const GAME_NAME = "InvestEd";
-const INIT_INVESTMENT = 10000;
+const INIT_INVESTMENT = 300;
 
 function App() {
   const [investment, setInvestment] = useState(INIT_INVESTMENT);
