@@ -1,0 +1,189 @@
+{
+  "questions": [
+    {
+      "question": "What happens to your money when it earns compounding interest?",
+      "options": [
+        "It increases at a fixed amount each year.",
+        "It increases by a percentage of the previous year’s total.",
+        "It remains the same.",
+        "It decreases over time."
+      ],
+      "answer": "It increases by a percentage of the previous year’s total.",
+      "correctFeedback": "You're correct! Compounding interest means your money grows based on the previous year's total, which includes prior interest earned. This can significantly increase your investment over time.",
+      "incorrectFeedback": "You're incorrect. The correct answer is It increases by a percentage of the previous year’s total. Compounding interest helps your money grow faster because each year's interest is added to the total amount, on which new interest is calculated.",
+      "topic": "Compounding Interest"
+    },
+    {
+      "question": "If you start with $1,000 and earn 10% annual compounding interest, how much will you have at the end of two years (approximately)?",
+      "options": ["$1,100", "$1,210", "$1,300", "$1,000"],
+      "answer": "$1,210",
+      "correctFeedback": "You're correct! After two years of compounding at 10%, your initial amount grows to about $1,210. This illustrates the power of compounding interest.",
+      "incorrectFeedback": "You're incorrect. The correct answer is $1,210. Remember, with compounding interest, each year's interest is calculated on the total amount from the previous year, including earned interest.",
+      "topic": "Compounding Interest"
+    },
+    {
+      "question": "Which frequency of compounding interest generally leads to more money at the end of the year?",
+      "options": ["Annually", "Semi-annually", "Quarterly", "All are the same"],
+      "answer": "Quarterly",
+      "correctFeedback": "You're correct! Quarterly compounding interest leads to more money because the interest is calculated and added more frequently, allowing each subsequent calculation to be on a slightly higher amount.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Quarterly. More frequent compounding periods, like quarterly, allow the interest to grow on an increased principal more often.",
+      "topic": "Compounding Interest"
+    },
+    {
+      "question": "Why is it beneficial to start saving early with compounding interest?",
+      "options": [
+        "You face less risk.",
+        "It allows more time for interest to compound.",
+        "It means you can save less money.",
+        "It increases interest rates."
+      ],
+      "answer": "It allows more time for interest to compound.",
+      "correctFeedback": "You're correct! Starting early allows more time for your interest to compound, which can significantly increase your savings over a long period.",
+      "incorrectFeedback": "You're incorrect. The correct answer is It allows more time for interest to compound. The longer your money has to compound, the more you can benefit from the growth on your initial investment and the accumulated interest.",
+      "topic": "Compounding Interest"
+    },
+    {
+      "question": "What type of savings account is best if you want to benefit from compounding interest?",
+      "options": [
+        "Checking account",
+        "Standard savings account",
+        "High-yield savings account",
+        "Fixed deposit"
+      ],
+      "answer": "High-yield savings account",
+      "correctFeedback": "You're correct! A high-yield savings account usually offers higher interest rates with compounding, maximizing your returns over time.",
+      "incorrectFeedback": "You're incorrect. The correct answer is High-yield savings account. High-yield savings accounts are specifically designed to offer higher interest rates that compound, often resulting in better growth of your funds.",
+      "topic": "Compounding Interest"
+    },
+    {
+      "question": "What is a key benefit of diversifying your investments?",
+      "options": [
+        "Increases the risk",
+        "Protects against the loss of all investments",
+        "Guarantees a profit",
+        "Reduces the need to monitor investments"
+      ],
+      "answer": "Protects against the loss of all investments",
+      "correctFeedback": "You're correct! Diversifying spreads out your risk and helps protect against losing all your money if one investment fails.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Protects against the loss of all investments. Diversification is crucial as it helps reduce risk by spreading investments across various asset classes or sectors.",
+      "topic": "Investment"
+    },
+    {
+      "question": "What does it mean to invest in a stock?",
+      "options": [
+        "Lending money to the government",
+        "Buying a portion of a company",
+        "Saving money in a bank account",
+        "Purchasing bonds"
+      ],
+      "answer": "Buying a portion of a company",
+      "correctFeedback": "You're correct! Investing in a stock means you are buying a share or a small part of a company, making you one of its owners.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Buying a portion of a company. When you buy stock, you're acquiring ownership in a company, which can grow in value as the company succeeds.",
+      "topic": "Investment"
+    },
+    {
+      "question": "What is usually a safer investment choice for beginners?",
+      "options": [
+        "Individual stocks",
+        "Mutual funds",
+        "Cryptocurrencies",
+        "Commodities like gold"
+      ],
+      "answer": "Mutual funds",
+      "correctFeedback": "You're correct! Mutual funds are often safer for beginners because they provide diversification across various stocks, reducing the risk of losing money on a single investment.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Mutual funds. Mutual funds offer diversified exposure to a range of investments, which helps mitigate risks associated with individual stocks.",
+      "topic": "Investment"
+    },
+    {
+      "question": "What should you consider before investing in a company's stock?",
+      "options": [
+        "The color of the company logo",
+        "The company’s debt levels",
+        "The number of employees",
+        "The CEO's hobbies"
+      ],
+      "answer": "The company’s debt levels",
+      "correctFeedback": "You're correct! It's important to consider the company's financial health, including its debt levels, as this can affect its future performance and, consequently, its stock price.",
+      "incorrectFeedback": "You're incorrect. The correct answer is The company’s debt levels. Assessing a company's financial stability, including its debt, is crucial in making informed investment decisions.",
+      "topic": "Investment"
+    },
+    {
+      "question": "How can investments contribute to your financial planning?",
+      "options": [
+        "They secure immediate cash flow.",
+        "They provide potential long-term growth.",
+        "They eliminate financial risk.",
+        "They guarantee returns."
+      ],
+      "answer": "They provide potential long-term growth.",
+      "correctFeedback": "You're correct! Investments, especially in stocks or mutual funds, can offer potential long-term growth, helping you achieve financial goals such as retirement.",
+      "incorrectFeedback": "You're incorrect. The correct answer is They provide potential long-term growth. Investments don’t guarantee returns but can significantly enhance your financial position over the long term through potential growth.",
+      "topic": "Investment"
+    },
+    {
+      "question": "What does 'efficient capital use' mean in personal finance?",
+      "options": [
+        "Spending all your money at once",
+        "Investing everything in one option",
+        "Utilizing your resources in a way that maximizes value and minimizes waste",
+        "Keeping all your money in cash"
+      ],
+      "answer": "Utilizing your resources in a way that maximizes value and minimizes waste",
+      "correctFeedback": "You're correct! Efficient capital use involves managing your financial resources in a way that maximizes their value and effectiveness, ensuring that every dollar is put to good use.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Utilizing your resources in a way that maximizes value and minimizes waste. Efficient capital use means making strategic decisions to get the most out of your financial assets without unnecessary waste.",
+      "topic": "Efficient Capital Use"
+    },
+    {
+      "question": "Which option is an example of efficient capital use?",
+      "options": [
+        "Buying items you don't need because they are on sale",
+        "Paying off high-interest debt first",
+        "Keeping all savings under the mattress",
+        "Investing heavily in a speculative stock"
+      ],
+      "answer": "Paying off high-interest debt first",
+      "correctFeedback": "You're correct! Paying off high-interest debt first is a smart move because it reduces the amount of interest you pay over time, freeing up more money for other purposes.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Paying off high-interest debt first. Prioritizing high-interest debt repayments is a strategic way to use your capital efficiently by reducing long-term financial burdens.",
+      "topic": "Efficient Capital Use"
+    },
+    {
+      "question": "How can you improve the efficiency of your capital use?",
+      "options": [
+        "Increase discretionary spending",
+        "Budgeting and tracking expenses",
+        "Ignoring financial goals",
+        "Avoiding investments"
+      ],
+      "answer": "Budgeting and tracking expenses",
+      "correctFeedback": "You're correct! Budgeting and tracking expenses help you understand where your money is going, allowing you to allocate resources more effectively and avoid waste.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Budgeting and tracking expenses. A budget is a powerful tool in ensuring that your spending aligns with your financial goals and optimizes the use of your resources.",
+      "topic": "Efficient Capital Use"
+    },
+    {
+      "question": "What role does interest rate play in capital use?",
+      "options": [
+        "It has no impact",
+        "Higher rates mean better investment returns",
+        "Interest rates only matter for savings accounts",
+        "They affect both the cost of borrowing and the return on investments"
+      ],
+      "answer": "They affect both the cost of borrowing and the return on investments",
+      "correctFeedback": "You're correct! Interest rates influence both the cost of borrowing money and the returns you can earn on investments, making them a key factor in capital use decisions.",
+      "incorrectFeedback": "You're incorrect. The correct answer is They affect both the cost of borrowing and the return on investments. Understanding interest rates is crucial as they impact both your investment returns and the cost of loans, affecting overall financial efficiency.",
+      "topic": "Efficient Capital Use"
+    },
+    {
+      "question": "Which strategy is effective in using capital efficiently?",
+      "options": [
+        "Investing in high-risk ventures without research",
+        "Diversifying investments to spread risk",
+        "Focusing only on short-term gains",
+        "Neglecting to save for emergencies"
+      ],
+      "answer": "Diversifying investments to spread risk",
+      "correctFeedback": "You're correct! Diversifying investments is an effective strategy to spread risk and increase the chances of steady returns, making it a key aspect of efficient capital use.",
+      "incorrectFeedback": "You're incorrect. The correct answer is Diversifying investments to spread risk. Diversification helps mitigate risks associated with individual investments, contributing to more stable and efficient use of capital.",
+      "topic": "Efficient Capital Use"
+    }
+  ]
+}

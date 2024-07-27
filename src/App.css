@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #ff6f91, #ff9671, #ffc75f, #f9f871);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 350px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.start-screen {
+  text-align: center;
+}
+
+.start-button, .restart-button, .option-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover, .restart-button:hover, .option-button:hover {
+  background-color: #45a049;
+}
+
+.option-button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  background-color: #f9f871;
+  color: #333;
+}
+
+.question-container {
+  margin-top: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
+
+.status-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #ffc75f;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.game-over, .congrats {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  max-width: 350px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.game-over-content, .congrats-content {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-out;
+}
+
+.feedback-green {
+  text-align: center;
+  background: lightgreen;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-out;
+}
+
+.feedback-red {
+  text-align: center;
+  background: red;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
