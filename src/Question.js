@@ -15,7 +15,7 @@ function Question({ question, onAnswer }) {
       <div className="options">
         {question.options.map((option, index) => (
           <button
-            key={index}
+            key={option + "" + index}
             onClick={() => handleAnswerClick(option)}
             className="option-button"
           >

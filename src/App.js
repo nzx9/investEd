@@ -8,11 +8,11 @@ import backgroundMusic from "./sounds/background.mp3";
 import Confetti from "react-confetti";
 import "./App.css";
 import Modal from "react-modal";
-import financeQA from "./quizzes.json"; 
+import financeQA from "./quizzes.json";
 
 Modal.setAppElement("#root");
 const GAME_NAME = "InvestEd";
-const INIT_INVESTMENT = 100;
+const INIT_INVESTMENT = 10000;
 
 function App() {
   const [investment, setInvestment] = useState(INIT_INVESTMENT);
@@ -87,9 +87,17 @@ function App() {
     return (
       <div className="start-screen">
         <h1>{GAME_NAME}</h1>
+        <h4 className="rad-lab">RAD Lab 2</h4>
         <button onClick={startGame} className="start-button">
           Start Game
         </button>
+        <div>
+          <h4 className="team">Team Members</h4>
+          <p>A. Premsai - 248261D</p>
+          <p>W. G. N. D. Madanayaka - 248244E</p>
+          <p>K. Abiram - 248203E</p>
+          <p>S. Luxana - 248243B</p>
+        </div>
       </div>
     );
   }
@@ -128,14 +136,18 @@ function App() {
   return (
     <div className="app">
       <div className="header">
-          <h1>{GAME_NAME}</h1>
+        <h1>{GAME_NAME}</h1>
       </div>
-      <Status investment={investment}  />
+      <Status investment={investment} />
       <Question
         question={questions[currentQuestionIndex]}
         onAnswer={handleAnswer}
       />
-      {showFeedback && <div className={ isCorrect ? "feedback-green" : "feedback-red" }>{feedback}</div>}
+      {showFeedback && (
+        <div className={isCorrect ? "feedback-green" : "feedback-red"}>
+          {feedback}
+        </div>
+      )}
     </div>
   );
 }

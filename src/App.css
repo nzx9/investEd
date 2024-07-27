@@ -52,6 +52,10 @@ body {
   background-color: #45a049;
 }
 
+.option-button:hover::after{
+  background-color: #4caf50;
+}
+
 .option-button {
   display: block;
   width: 100%;
@@ -115,11 +119,19 @@ body {
 
 .feedback-red {
   text-align: center;
-  background: red;
+  background: #ff7f7f;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation: slideIn 0.5s ease-out;
+}
+
+.rad-lab {
+  margin-bottom: 150px;
+}
+
+.team {
+  margin-top: 150px;
 }
 
 @keyframes fadeIn {
